@@ -1,0 +1,39 @@
+[07:53:26] [Server thread/INFO]: Starting minecraft server version 1.7.2
+[07:53:27] [Server thread/INFO]: Loading properties
+[07:53:27] [Server thread/WARN]: server.properties does not exist
+[07:53:27] [Server thread/INFO]: Generating new properties file
+[07:53:27] [Server thread/INFO]: Default game type: SURVIVAL
+[07:53:27] [Server thread/INFO]: Generating keypair
+[07:53:26] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.7.0_55]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.7.0_55]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.7.0_55]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.7.0_55]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.7.0_55]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.7.0_55]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.7.0_55]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.7.0_55]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.7.0_55]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.7.0_55]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.7.0_55]
+	at ll.run(SourceFile:78) [minecraft_server.1.7.2.exe:?]
+[07:53:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:53:28] [Server thread/WARN]: Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (The system cannot find the file specified)
+[07:53:28] [Server thread/WARN]: Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (The system cannot find the file specified)
+[07:53:28] [Server thread/INFO]: Preparing level "world"
+[07:53:28] [Server thread/INFO]: Preparing start region for level 0
+[07:53:29] [Server thread/INFO]: Preparing spawn area: 5%
+[07:53:30] [Server thread/INFO]: Preparing spawn area: 10%
+[07:53:31] [Server thread/INFO]: Preparing spawn area: 15%
+[07:53:32] [Server thread/INFO]: Preparing spawn area: 19%
+[07:53:33] [Server thread/INFO]: Preparing spawn area: 23%
+[07:53:34] [Server thread/INFO]: Preparing spawn area: 27%
+[07:53:35] [Server thread/INFO]: Preparing spawn area: 31%
+[07:53:36] [Server thread/INFO]: Done (7.934s)! For help, type "help" or "?"
+[07:53:36] [Server thread/INFO]: Stopping server
+[07:53:36] [Server thread/INFO]: Saving players
+[07:53:36] [Server thread/INFO]: Saving worlds
+[07:53:36] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[07:53:37] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[07:53:37] [Server thread/INFO]: Saving chunks for level 'world'/The End
